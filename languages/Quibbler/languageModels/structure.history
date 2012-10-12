@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="-1" />
+    </dependencies>
+    <rename id="h7db.4027353721326771089" type="PROPERTY" from="code" to="legacyCode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="0" />
+    </dependencies>
+    <rename id="h7db.7993060958537000638" type="PROPERTY" from="ncount" to="nCount" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="1" />
+    </dependencies>
+    <rename id="h7db.4195781831414131199" type="REFERENCE" from="codebook" to="noundCodebook" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="2" />
+    </dependencies>
+    <rename id="h7db.4027353721326771088" type="CONCEPT" from="Group" to="Code" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="3" />
+    </dependencies>
+    <rename id="h7db.972972900937310118" type="CHILD" from="subCodesCode" to="subCodes" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="4" />
+    </dependencies>
+    <rename id="h7db.4027353721326780649" type="REFERENCE" from="group" to="code" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="5" />
+    </dependencies>
+    <rename id="h7db.4027353721326780649" type="REFERENCE" from="code" to="nounCode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="6" />
+    </dependencies>
+    <rename id="h7db.4195781831414131199" type="REFERENCE" from="noundCodebook" to="nounCodebook" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="7" />
+    </dependencies>
+    <rename id="h7db.972972900937397666" type="PROPERTY" from="stemmed" to="stemmedEN" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="8" />
+    </dependencies>
+    <rename id="h7db.972972900937551583" type="PROPERTY" from="language" to="langId" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="9" />
+    </dependencies>
+    <rename id="h7db.4027353721326780649" type="REFERENCE" from="nounCode" to="groupCode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="10" />
+    </dependencies>
+    <rename id="h7db.8941337460718929709" type="PROPERTY" from="correctedTest" to="correctedText" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="11" />
+    </dependencies>
+    <rename id="h7db.8941337460718929709" type="PROPERTY" from="correctedText" to="oldText" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="12" />
+    </dependencies>
+    <rename id="h7db.4027353721326700625" type="PROPERTY" from="code" to="code1" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="13" />
+    </dependencies>
+    <rename id="h7db.874424667336370418" type="REFERENCE" from="si" to="similaritiesCodebook" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="14" />
+    </dependencies>
+    <rename id="h7db.874424667336370418" type="REFERENCE" from="similaritiesCodebook" to="projectSimilarities" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="15" />
+    </dependencies>
+    <rename id="h7db.874424667336370418" type="REFERENCE" from="projectSimilarities" to="nounSimilarities" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="16" />
+    </dependencies>
+    <rename id="h7db.7971240069553208422" type="REFERENCE" from="globalSimilarities" to="adjectiveSimilarities" />
+  </StructureModification>
+</history>
+

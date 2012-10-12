@@ -352,7 +352,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5632640526287689499">
-        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <property name="text" nameId="tpc2.1073389577007" value="} " />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="3063207977739165317" resolveInfo="GrayBrace" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4027353721326771096" />

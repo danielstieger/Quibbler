@@ -33,7 +33,7 @@
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="4849303583557404107">
       <property name="name" nameId="tpck.1169194664001" value="LoadCodeBook" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Load codebook from csv file" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Load codebook from csv file" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="7993060958537000589">
       <property name="name" nameId="tpck.1169194664001" value="CreateWordCountList" />
@@ -45,23 +45,23 @@
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5450704404003620767">
       <property name="name" nameId="tpck.1169194664001" value="RemoveCodesBasedOnN" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="__ remove codes based on nCount" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Remove codes based on nCount" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="7486550868340991429">
       <property name="name" nameId="tpck.1169194664001" value="LoadWordList" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Load word list from line file" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Load word list from line file" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="6402137875229793872">
       <property name="name" nameId="tpck.1169194664001" value="V0_MainCodeAssigner" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(8) V0_MainCodeAssigner" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(9) V0_MainCodeAssigner" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="8953696360125713193">
       <property name="name" nameId="tpck.1169194664001" value="RemoveStopWordsCodebook" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Remove stop-words from codebook" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Remove stop-words from codebook" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="7742080655871311247">
       <property name="name" nameId="tpck.1169194664001" value="NormalizeAssociations" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Normalize Association Data" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Normalize Association Data" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5967685046045765919">
       <property name="name" nameId="tpck.1169194664001" value="RemoveStopWords" />
@@ -69,7 +69,7 @@
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5967685046045771216">
       <property name="name" nameId="tpck.1169194664001" value="InitCodeBook" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="ReInitialize Codebook" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     ReInitialize Codebook" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="8941337460718945825">
       <property name="name" nameId="tpck.1169194664001" value="CorrectSpellingOnCodebook" />
@@ -77,7 +77,7 @@
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="3085085761335523891">
       <property name="name" nameId="tpck.1169194664001" value="CreateStopWordsBook" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Create StopWords Codebook" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Create StopWords Codebook" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="3377165128460235216">
       <property name="name" nameId="tpck.1169194664001" value="CorrectStemmingOnCodebook" />
@@ -85,11 +85,11 @@
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="6108470616367042684">
       <property name="name" nameId="tpck.1169194664001" value="ContainSubWord" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(6) Contains important word" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(7) Contains important word" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="4307678527682444442">
       <property name="name" nameId="tpck.1169194664001" value="ClearAssociations" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Clear Association Codes" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(?) Clear Association Codes" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="4307678527682585727">
       <property name="name" nameId="tpck.1169194664001" value="CleanStrangeChars" />
@@ -97,19 +97,23 @@
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="9089115941749384709">
       <property name="name" nameId="tpck.1169194664001" value="V2_WordCount_Based_Assigner" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(?) V2_WordCound_Based_Assigner" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     V2_WordCound_Based_Assigner" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5278478754636622383">
       <property name="name" nameId="tpck.1169194664001" value="AdjectiveGuesser" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(?) Adjective Guesser" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="     Adjective Guesser" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="874424667336370369">
       <property name="name" nameId="tpck.1169194664001" value="ResolveAdjectiveSimilarities" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(-X-) Resolve Adjective Similarities" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(5) Resolve Adjective Similarities" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="7971240069553315284">
       <property name="name" nameId="tpck.1169194664001" value="ResolveNounSimilarities" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(-X-) Resolve Noun Similarities" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(6) Resolve Noun Similarities" />
+    </node>
+    <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="1597667455004532313">
+      <property name="name" nameId="tpck.1169194664001" value="MakeYourCodebook" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(8) Adjust your codebook" />
     </node>
   </roots>
   <root id="3317708783574899603">
@@ -4931,6 +4935,25 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7971240069553315319" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7971240069553315320" />
+      </node>
+    </node>
+  </root>
+  <root id="1597667455004532313">
+    <node role="target" roleId="tp1h.6895093993902310998" type="tp1h.NodeTarget" typeId="tp1h.6895093993902310764" id="1597667455004559831">
+      <link role="concept" roleId="tp1h.6895093993902310806" targetNodeId="h7db.4195781831414131181" resolveInfo="Project" />
+    </node>
+    <node role="doRefactorBlock" roleId="tp1h.6895093993902236381" type="tp1h.DoRefactorClause" typeId="tp1h.1189694053795" id="1597667455004532315">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1597667455004532316">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1597667455004581602">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1597667455004581603">
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="dbrf.~JOptionPane" resolveInfo="JOptionPane" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dbrf.~JOptionPane%dshowMessageDialog(java%dawt%dComponent,java%dlang%dObject)%cvoid" resolveInfo="showMessageDialog" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1597667455004581604" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1597667455004581617">
+              <property name="value" nameId="tpee.1070475926801" value="You can manually organize your codebook now!" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </root>

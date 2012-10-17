@@ -41,6 +41,9 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4016798918765780647">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="h7db.4016798918765780645" resolveInfo="ColumnReference" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1308925823770190060">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="h7db.1308925823770190058" resolveInfo="DocString" />
+    </node>
   </roots>
   <root id="4027353721326700626">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4027353721326700631">
@@ -449,10 +452,18 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5157769565061152207">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="688223057409168868">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7357314041974696294">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7357314041974696294">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1308925823770190067">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="h7db.1308925823770190057" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="1308925823770190068" />
+        <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1308925823770238788">
+          <property name="text" nameId="tpc2.1073389577007" value="" />
+          <property name="nullText" nameId="tpc2.1082639509531" value="&lt;comments&gt;" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1308925823770190063">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="4027353721326773136">
@@ -934,6 +945,11 @@
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
         </node>
       </node>
+    </node>
+  </root>
+  <root id="1308925823770190060">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1308925823770190062">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="h7db.1308925823770190059" resolveInfo="text" />
     </node>
   </root>
 </model>

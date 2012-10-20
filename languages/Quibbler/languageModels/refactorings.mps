@@ -40,8 +40,8 @@
       <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(3) Create Word-Count List" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5157769565061202877">
-      <property name="name" nameId="tpck.1169194664001" value="S6_OptimizeCodebook" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(6) Optimize codebook" />
+      <property name="name" nameId="tpck.1169194664001" value="S7_OptimizeCodebook" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(7) Optimize codebook" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5450704404003620767">
       <property name="name" nameId="tpck.1169194664001" value="RemoveCodesBasedOnN" />
@@ -112,8 +112,8 @@
       <property name="name" nameId="tpck.1169194664001" value="S2_FindCommonAssociations" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="1308925823771268281">
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(7) merge codebook and noun similarities" />
-      <property name="name" nameId="tpck.1169194664001" value="S7_WordlistSortIN" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(6) merge codebook and noun similarities" />
+      <property name="name" nameId="tpck.1169194664001" value="S6_WordlistSortIN" />
     </node>
   </roots>
   <root id="3317708783574899603">

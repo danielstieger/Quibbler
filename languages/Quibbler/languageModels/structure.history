@@ -108,5 +108,11 @@
     </dependencies>
     <rename id="h7db.7971240069553208422" type="REFERENCE" from="globalSimilarities" to="adjectiveSimilarities" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="17" />
+    </dependencies>
+    <rename id="h7db.874424667336370418" type="REFERENCE" from="nounSimilarities" to="coreConcepts" />
+  </StructureModification>
 </history>
 

@@ -3,7 +3,7 @@
   <persistence version="7" />
   <language namespace="f883a17e-79f2-48bb-ade5-f22f97685d97(Quibbler)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="17" implicit="yes" />
+  <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="18" implicit="yes" />
   <roots>
     <node type="h7db.Codebook" typeId="h7db.4027353721326771098" id="3085085761335606669">
       <property name="name" nameId="tpck.1169194664001" value="Global_StopWords" />
@@ -18,7 +18,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Localtions" />
     </node>
     <node type="h7db.Codebook" typeId="h7db.4027353721326771098" id="1308925823771263371">
-      <property name="name" nameId="tpck.1169194664001" value="Important_Nouns" />
+      <property name="name" nameId="tpck.1169194664001" value="CoreConcepts_Dan_2012" />
     </node>
   </roots>
   <root id="3085085761335606669">
@@ -37,18 +37,30 @@
       <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
       <property name="name" nameId="tpck.1169194664001" value="to" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" to" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" to" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" to" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="874424667336363722">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
       <property name="name" nameId="tpck.1169194664001" value="es" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" es" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" es" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" es" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="874424667336213892">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
       <property name="name" nameId="tpck.1169194664001" value="am" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" am" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" am" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" am" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3085085761335606670">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -934,9 +946,9 @@
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
       <property name="name" nameId="tpck.1169194664001" value="quelle" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" (qülle" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" (quell" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" (quell" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" qull" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" quell" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" quell" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
     </node>
@@ -1518,11 +1530,16 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wasserfall" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wasserfael" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wasserfaell" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263370">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="wasserfall" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wasserfall" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wasserfal" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wasserfall" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596138">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -1538,10 +1555,10 @@
           <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
           <property name="importance" nameId="h7db.3085085761335754278" value="50" />
           <property name="name" nameId="tpck.1169194664001" value="water falls" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fall" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fall" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" falls" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wat fall" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" water fall" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" water falls" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
         </node>
       </node>
     </node>
@@ -1559,9 +1576,9 @@
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="baeder" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" freibad" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" freibaed" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freibaeder" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bad" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" baeder" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" baeder" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596357">
@@ -1802,6 +1819,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wass" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wasser" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wasser" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766325">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -1810,6 +1828,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wat" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" water" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" water" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766256">
@@ -1820,6 +1839,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lak" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" lake" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lak" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766314">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -1829,6 +1849,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" badesee" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" badese" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" badese" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766315">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -1838,6 +1859,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" zellersee" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" zellerse" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" zellerse" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596293">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -1857,6 +1879,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" stausee" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" stause" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" stause" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596004">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
@@ -1906,6 +1929,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" seezaub" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" seezaub" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" seezauber" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595687">
@@ -2135,6 +2159,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountai" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountain" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountains" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766287">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2144,6 +2169,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bergwel" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bergwelt" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bergwelt" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766299">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2153,6 +2179,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" alp" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" alpen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" alpen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766320">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2162,6 +2189,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" klamm" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" klammen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" klammen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766321">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2171,6 +2199,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" alm" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" almen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" almen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595689">
@@ -2350,6 +2379,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" holiday" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" holidai" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" holiday" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766337">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2359,6 +2389,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" vacatio" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" vacat" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" vacation" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766346">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2368,6 +2399,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" sommerurlaub" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" sommerurlaub" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" sommerurlaub" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595692">
@@ -2596,6 +2628,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" air" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" air" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" air" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766311">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2605,6 +2638,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bergluf" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bergluft" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bergluft" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766255">
@@ -2615,6 +2649,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" landschaf" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" landschaft" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" landschaft" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596426">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -2663,6 +2698,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" scenery" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" sceneri" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" scenery" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766282">
@@ -2673,6 +2709,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" panorama" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" panorama" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" panoram" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596525">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -2800,6 +2837,7 @@
             <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" view" />
             <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" view" />
             <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" view" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
           </node>
           <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766332">
             <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2809,6 +2847,7 @@
             <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" blick" />
             <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" blick" />
             <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" blick" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
           </node>
           <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766353">
             <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2818,6 +2857,7 @@
             <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ausblick" />
             <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ausblick" />
             <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ausblick" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
           </node>
         </node>
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766324">
@@ -2828,6 +2868,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bergpanorama" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bergpanorama" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bergpanoram" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
           <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596425">
             <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
             <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -2848,6 +2889,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" weit" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" weit" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" weit" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596272">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -2867,6 +2909,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wies" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wiesn" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wiesn" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766345">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -2876,6 +2919,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" himmel" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" himmel" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" himmel" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595693">
@@ -3045,6 +3089,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ruh" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ruhe" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ruh" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766263">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -3054,6 +3099,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" entspannung" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" entspannung" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" entspannung" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596465">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3082,6 +3128,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" relaxatio" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" relax" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" relaxation" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766312">
@@ -3092,6 +3139,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" relax" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" relaxen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" relaxen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596791">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3110,6 +3158,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" entspann" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" entspannen" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" entspannen" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766336">
@@ -3120,6 +3169,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ausspann" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ausspannen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ausspannen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595701">
@@ -3308,6 +3358,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" snow" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" snow" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" snow" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766269">
@@ -3318,6 +3369,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" win" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" winter" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" winter" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766291">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -3327,6 +3379,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" glacier" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" glacier" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" glacier" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595718">
@@ -3445,6 +3498,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" freu" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" freunden" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freunden" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595942">
@@ -3495,6 +3549,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" leu" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" leut" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" leut" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766285">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -3504,6 +3559,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" peopl" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" peopl" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" peopl" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595726">
@@ -3674,6 +3730,7 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bad" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" baden" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" baden" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766317">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3682,6 +3739,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wasserspor" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wassersport" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wassersport" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596494">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3741,6 +3799,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schwimm" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schwimmen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schwimmen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596713">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3759,6 +3818,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" swimming" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" swim" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" swimming" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
     </node>
@@ -3770,6 +3830,7 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" walking" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" walk" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" walking" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596725">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3928,6 +3989,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wand" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wandern" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wandern" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766289">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -3936,6 +3998,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" hiking" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" hike" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" hiking" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
     </node>
@@ -3947,6 +4010,7 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" skifahr" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" skifahren" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" skifahren" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596149">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
@@ -4165,6 +4229,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" freerid" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" freerid" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freerid" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766331">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -4174,6 +4239,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" snowboard" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" snowboarden" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" snowboarden" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596308">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -4203,6 +4269,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" winterspor" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wintersport" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wintersport" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766275">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -4212,6 +4279,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" skiing" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" skiing" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766284">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -4221,6 +4289,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schifahr" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schifahren" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schifahren" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766298">
@@ -4231,6 +4300,7 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" biking" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bike" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" biking" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596270">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -4339,6 +4409,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountai biking" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountain bike" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountain biking" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595945">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -4358,6 +4429,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" radfahr" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" radfahren" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" radfahren" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766306">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -4367,6 +4439,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountainbik" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountainbiken" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountainbiken" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766330">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -4376,6 +4449,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bik" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" biken" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" biken" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595732">
@@ -4585,6 +4659,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" golf" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" golf" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" golf" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596918">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -4604,6 +4679,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" training" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" train" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" training" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595744">
@@ -4693,6 +4769,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fun" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fun" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fun" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595760">
@@ -4712,6 +4789,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" austria" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" austria" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" austri" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596599">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -4801,6 +4879,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gastfreundschaf" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gastfreundschaft" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gastfreundschaft" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596503">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -4819,6 +4898,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gastfreundlichkei" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gastfreundlichkeit" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gastfreundlichkeit" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
     </node>
@@ -4889,6 +4969,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gemutlichkei" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gemuetlichkeit" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gemuetlichkeit" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595792">
@@ -5068,6 +5149,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" taurnspa" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" tauernspa" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" tauernsp" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766288">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -5077,6 +5159,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wellness" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" well" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wellness" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766262">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -5086,6 +5169,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" spa" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" spa" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" spa" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595814">
@@ -5375,6 +5459,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gondel" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gondeln" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gondeln" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595821">
@@ -5534,6 +5619,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" altstad" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" altstadt" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" altstadt" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595826">
@@ -5583,6 +5669,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" freud" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" freud" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freud" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595843">
@@ -6042,6 +6129,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" food" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" food" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" food" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766309">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -6051,6 +6139,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" kuch" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" kuech" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" kuec" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766328">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -6060,6 +6149,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schmankerl" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schmankerl" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schmankerl" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595852">
@@ -6350,6 +6440,7 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" trink" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" trinken" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" trinken" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596969">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -6638,6 +6729,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" moglichkei" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" moeglichkeiten" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" moeglichkeiten" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595920">
@@ -6697,6 +6789,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" kraftwerk" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" kraftwerk" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" kraftwerk" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595925">
@@ -6796,6 +6889,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" seefest" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" seefest" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" seefest" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596253">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -6835,6 +6929,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" sommerfest" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" sommerfest" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" sommerfest" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595926">
@@ -7054,6 +7149,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" regio" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" region" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" region" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766307">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -7063,6 +7159,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" umgebung" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" umgebung" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" umgebung" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596692">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -7092,6 +7189,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" geg" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gegend" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gegend" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595866">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -7281,6 +7379,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" tal" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" tal" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" tal" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595994">
@@ -7480,6 +7579,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" einkauf" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" einkaufen" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" einkaufen" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596956">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -8219,6 +8319,10 @@
       <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
       <property name="name" nameId="tpck.1169194664001" value="SPECIALIZED" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" specialized" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" SPECIALIZED" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" SPECiALiZED" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595735">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="22" />
@@ -8234,12 +8338,20 @@
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="und" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" und" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" und" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" und" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766243">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="nicht" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" nich" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" nicht" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" nicht" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595691">
@@ -8308,7 +8420,7 @@
         <property name="name" nameId="tpck.1169194664001" value="herrlich" />
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" herrlich" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" herrlich" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" herrlicher" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" herrlic" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="212141960609716784">
@@ -8316,6 +8428,10 @@
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="amazing" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" amazing" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" amaz" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" amazing" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595700">
@@ -8324,7 +8440,7 @@
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
       <property name="name" nameId="tpck.1169194664001" value="gut" />
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gut" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gute" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gut" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gut" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="212141960609716783">
@@ -8332,12 +8448,20 @@
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="fantastisch" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fantastisch" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fantastisch" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fantastisc" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="212141960609716780">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="perfekt" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" perfek" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" perfekt" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" perfekt" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596190">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -8376,7 +8500,7 @@
         <property name="name" nameId="tpck.1169194664001" value="wunderbar" />
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wunderbar" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wunderbar" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wunderbarer" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wunderbar" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595766">
@@ -8406,7 +8530,7 @@
         <property name="name" nameId="tpck.1169194664001" value="toll" />
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" toll" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" toll" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" tolles" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" toll" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
@@ -8437,7 +8561,7 @@
       <property name="name" nameId="tpck.1169194664001" value="freundlich" />
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" freundlich" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" freundlich" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freundliches" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freundlic" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595757">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -8504,12 +8628,20 @@
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="frisch" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" frisch" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" frisch" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" frisc" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="212141960609716782">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
         <property name="name" nameId="tpck.1169194664001" value="fresh" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fresh" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fresh" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fresh" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595914">
@@ -8519,7 +8651,7 @@
       <property name="name" nameId="tpck.1169194664001" value="erholsam" />
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" erholsam" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" erholsam" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erholsamer" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erholsam" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641595936">
@@ -8542,6 +8674,7 @@
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" local" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" LOCAL" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" LOCAL" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596982">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -8760,6 +8893,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" hoh taur" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" hohe tauern" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" hoh tauern" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596026">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
@@ -8778,6 +8912,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" taur" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" tauern" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" tauern" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766247">
@@ -8788,6 +8923,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" kitzsteinhor" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" kitzsteinhorn" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" kitzsteinhorn" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596003">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
@@ -8807,6 +8943,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schmittenhoh" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schmittenhoeh" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schmittenhoeh" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766281">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -8815,6 +8952,7 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schmitt" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schmitten" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schmitten" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766252">
@@ -8825,6 +8963,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" kapru" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" kaprun" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" kaprun" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596416">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -8844,6 +8983,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" grossglock" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" grossglockn" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" grossglockner" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3706970539641596555">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -8893,6 +9033,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" krimml wasserfall" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" krimmler wasserfael" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" krimmler wasserfaell" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766308">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -8902,6 +9043,7 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" maiskogel" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" maiskogel" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" maiskogel" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="3768300439838766318">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -8911,67 +9053,79 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schmidoli" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schmidolin" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schmidolin" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
   </root>
   <root id="1308925823771263371">
+    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264060">
+      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+      <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+      <property name="name" nameId="tpck.1169194664001" value="gletscher" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gletsch" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gletscher" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gletscher" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263563">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="glacier" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" glacier" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" glacier" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" glacier" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="3651779869248374731">
+      <property name="text" nameId="h7db.1308925823770190059" value="// im core concepts ist berg vermerkt, nicht berge. es können dann auch zusammengesetzte woerter e.g. " />
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="3651779869248374733">
+      <property name="text" nameId="h7db.1308925823770190059" value="// berg landschaft automatisch untergeordnet werden" />
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="3651779869248374734">
+      <property name="text" nameId="h7db.1308925823770190059" value=" " />
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="3651779869248374735">
+      <property name="text" nameId="h7db.1308925823770190059" value="// woerter die zusammengesetzt oder getrennt auftreten koennen e.g. ski fahren, muessen auseinandergeschrieben" />
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="3651779869248374736">
+      <property name="text" nameId="h7db.1308925823770190059" value="// werden. CoreConcepts mit mehr als einem Wort werden automatisch aus zusammengesetzt gesucht" />
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="7747415345307985983">
+      <property name="text" nameId="h7db.1308925823770190059" value="//" />
+    </node>
+    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="7747415345307985984">
+      <property name="text" nameId="h7db.1308925823770190059" value="// FINALLY - INITIALIZE CODEBOOK, by clicking on codebook-&gt;refactorings-&gt;initialize codebook" />
+    </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263419">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="211" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="berge" />
+      <property name="name" nameId="tpck.1169194664001" value="berg" />
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" berg" />
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" berg" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" berg" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264060">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="gletscher" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gletsch" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gletscher" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gletscher" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263563">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="glacier" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" glacier" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" glacier" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" glacier" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263420">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="echo" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" echo" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" echo" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" echo" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263422">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="alpengegend" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" alpengeg" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" alpengegend" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" alpengegend" />
+        <property name="name" nameId="tpck.1169194664001" value="alpen" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" alp" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" alpen" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" alpen" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263430">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="3tausender" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" 3tausender" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" 3tausend" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" 3tausender" />
+        <property name="name" nameId="tpck.1169194664001" value="tausender" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" tau" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" tausend" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" tausender" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263432">
@@ -9014,16 +9168,6 @@
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountains" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263443">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="alpen" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" alp" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" alpen" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" alpen" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263444">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -9049,10 +9193,10 @@
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="10" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="familien" />
+      <property name="name" nameId="tpck.1169194664001" value="familie" />
       <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" familie" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" familien" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" familien" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" famili" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" famili" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264082">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -9233,6 +9377,16 @@
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bergtouren" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bergtouren" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1855349206236326564">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="mountaineering" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountaineering" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountain" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountaineering" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263621">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
@@ -9297,41 +9451,13 @@
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
           <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="spaziergang" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" spaziergang" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" spaziergang" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" spaziergang" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263613">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="spazierwege" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" spazierweg" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" spazierweg" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" spazierweg" />
+          <property name="name" nameId="tpck.1169194664001" value="spazier" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" spazier" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" spazier" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" spazier" />
           <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
       </node>
-    </node>
-    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="1308925823771263372">
-      <property name="text" nameId="h7db.1308925823770190059" value="(1) berg &amp; berge werden durch stemming selbst entdeckt" />
-    </node>
-    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="1308925823771263373">
-      <property name="text" nameId="h7db.1308925823770190059" value="(2) im similarities keine rechtschreib-korrigierten woerter angeben" />
-    </node>
-    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="1308925823771263374">
-      <property name="text" nameId="h7db.1308925823770190059" value="(3) word importance wir um mindestens 10 erhoeht (im ziel codebook)" />
-    </node>
-    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="1308925823771263375">
-      <property name="text" nameId="h7db.1308925823770190059" value="(4) kann aber hier zusaetzlich noch erhoeht werden (wegen contains_important_words)" />
-    </node>
-    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="1308925823771263376">
-      <property name="text" nameId="h7db.1308925823770190059" value=" " />
-    </node>
-    <node role="docString" roleId="h7db.1308925823770190057" type="h7db.DocString" typeId="h7db.1308925823770190058" id="1308925823771263377">
-      <property name="text" nameId="h7db.1308925823770190059" value="(5) doch, mehrfachschachteln mögliche ... " />
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264065">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -9362,26 +9488,6 @@
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" see" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" see" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771423151">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="schwimmen" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schwimm" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schwimmen" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schwimmen" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771423152">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="swimming" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" swimming" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" swim" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" swimming" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263384">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -9391,6 +9497,26 @@
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" baden" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" baden" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771423151">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="schwimmen" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schwimm" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schwimmen" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schwimmen" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771423152">
+            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+            <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+            <property name="name" nameId="tpck.1169194664001" value="swimming" />
+            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" swimming" />
+            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" swim" />
+            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" swimming" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          </node>
+        </node>
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264064">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -9622,16 +9748,6 @@
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erholen" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264070">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="erholungs" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" erholung" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" erholung" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erholungs" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263519">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -9799,14 +9915,24 @@
             <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" relaxen" />
             <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" relaxen" />
             <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+            <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="7747415345307918815">
+              <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+              <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+              <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+              <property name="name" nameId="tpck.1169194664001" value="verwoehnen" />
+              <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" verwoh" />
+              <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" verwoehnen" />
+              <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" verwoehnen" />
+              <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+            </node>
             <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263540">
               <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
               <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
               <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-              <property name="name" nameId="tpck.1169194664001" value="verwoehnprogramm" />
-              <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" verwohnprogramm" />
-              <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" verwoehnprogramm" />
-              <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" verwoehnprogramm" />
+              <property name="name" nameId="tpck.1169194664001" value="verwoehn" />
+              <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" verwoh" />
+              <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" verwoehn" />
+              <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" verwoehn" />
               <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
             </node>
             <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263541">
@@ -9833,6 +9959,226 @@
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
+    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263796">
+      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+      <property name="nCount" nameId="h7db.7993060958537000638" value="6" />
+      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+      <property name="name" nameId="tpck.1169194664001" value="pisten" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" pist" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" pisten" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" pisten" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771419646">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="pistes" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" pist" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" pist" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" pistes" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263797">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="slopes" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" slop" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" slope" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" slopes" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263801">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="abfahrt" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" abfahr" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" abfahrt" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" abfahrt" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263802">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="ski gebiet" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ski gebie" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski gebiet" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ski gebiet" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263803">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="schi gebiet" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schi gebie" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schi gebiet" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schi gebiet" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="7747415345307918816">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="ski pisten" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ski pist" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski pisten" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ski pisten" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="7747415345307918817">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="schi pisten" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schi pist" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schi pisten" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schi pisten" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+      </node>
+    </node>
+    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263755">
+      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+      <property name="nCount" nameId="h7db.7993060958537000638" value="8" />
+      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+      <property name="name" nameId="tpck.1169194664001" value="bergbahnen" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bergbah" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bergbahnen" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bergbahnen" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264086">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="bahn" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bah" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bahn" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bahn" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263756">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="steilaufzug" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" steilaufzug" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" steilaufzug" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" steilaufzug" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263757">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="lifte" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lif" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" lift" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lift" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263758">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="4" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="transportation" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" transportatio" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" transport" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" transportation" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263771">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="gondeln" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gondel" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gondeln" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gondeln" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+    </node>
+    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264019">
+      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+      <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+      <property name="name" nameId="tpck.1169194664001" value="apres ski" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" apr ski" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" apr ski" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" apres ski" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264020">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="bars" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bar" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bar" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bars" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264021">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="night" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" nigh" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" night" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" night" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264022">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="club" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" club" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" club" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" club" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264023">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="evening" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" evening" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" even" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" evening" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264024">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="abend" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" abend" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" abend" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" abend" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264025">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="party" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" party" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" parti" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" party" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264026">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="schirmbar" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schirmbar" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schirmbar" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schirmbar" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+    </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263626">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -9842,25 +10188,15 @@
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ski" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264072">
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264074">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="ski" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ski" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ski" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264074">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="ski fahren" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ski fahr" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski fahren" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ski fahren" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
-        </node>
+        <property name="name" nameId="tpck.1169194664001" value="ski fahren" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ski fahr" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ski fahren" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ski fahren" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264073">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -9916,11 +10252,11 @@
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="snowboarden" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" snowboard" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" snowboarden" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" snowboarden" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <property name="name" nameId="tpck.1169194664001" value="snow boarden" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" snow board" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" snow boarden" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" snow boarden" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263650">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -9952,16 +10288,6 @@
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" natur" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" natur" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263467">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="weitblick" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" weitblick" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" weitblick" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" weitblick" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263468">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -10141,6 +10467,16 @@
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" panorama" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" panoram" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263467">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="weitblick" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" weitblick" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" weitblick" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" weitblick" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263498">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
@@ -10666,41 +11002,31 @@
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="fahrradfahren" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fahrradfahr" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fahrradfahren" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fahrradfahren" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <property name="name" nameId="tpck.1169194664001" value="fahrrad fahren" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fahrrad fahr" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fahrrad fahren" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fahrrad fahren" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263661">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
           <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="ratfahren" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ratfahr" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ratfahren" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ratfahren" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          <property name="name" nameId="tpck.1169194664001" value="rad fahren" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" rad fahr" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" rad fahren" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" rad fahren" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
         </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263665">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="mountainbiking" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountainbiking" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountainbik" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountainbiking" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263666">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="mountain biking" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountai biking" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountain bike" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountain biking" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
-        </node>
+        <property name="name" nameId="tpck.1169194664001" value="mountain bik" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountai bik" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountain bik" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountain bik" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263664">
           <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
           <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -10709,16 +11035,6 @@
           <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mtb" />
           <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mtb" />
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mtb" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263669">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="mountainbiken" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mountainbik" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" mountainbiken" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mountainbiken" />
           <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
         <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263670">
@@ -10740,16 +11056,6 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" cycling" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" cycl" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" cycling" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263668">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="radfahren" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" radfahr" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" radfahren" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" radfahren" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
@@ -11057,29 +11363,19 @@
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="9" />
       <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="therme" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" therm" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" therm" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" therm" />
+      <property name="name" nameId="tpck.1169194664001" value="wellness" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wellness" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" well" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wellness" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263736">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="welness" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" welness" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wel" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" welness" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263737">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="wellnessangebote" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wellnessangebo" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" wellnessangebot" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wellnessangebot" />
+        <property name="name" nameId="tpck.1169194664001" value="therme" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" therm" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" therm" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" therm" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263738">
@@ -11110,16 +11406,6 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" taurnspa" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" tauernspa" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" tauernsp" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263741">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="wellness" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" wellness" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" well" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" wellness" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263742">
@@ -11200,66 +11486,6 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" heim" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" heim" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" heim" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-    </node>
-    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263755">
-      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-      <property name="nCount" nameId="h7db.7993060958537000638" value="8" />
-      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="bergbahnen" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bergbah" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bergbahnen" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bergbahnen" />
-      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264086">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="bahn" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bah" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bahn" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bahn" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263756">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="steilaufzug" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" steilaufzug" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" steilaufzug" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" steilaufzug" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263757">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="lifte" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lif" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" lift" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lift" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263758">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="4" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="transportation" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" transportatio" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" transport" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" transportation" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263771">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="gondeln" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" gondel" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" gondeln" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" gondeln" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
@@ -11390,126 +11616,6 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" freud" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" freud" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" freud" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-    </node>
-    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263793">
-      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-      <property name="nCount" nameId="h7db.7993060958537000638" value="6" />
-      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="erlebnis" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" erlebni" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" erlebni" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erlebnis" />
-      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263812">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="6" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="genuss" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" genuss" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" genuss" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" genuss" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263813">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="16" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="geniessen" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" geniess" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" geniessen" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" geniessen" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263814">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="geniesen" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" genie" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" geniesen" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" geniesen" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263794">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="erleben" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" erleb" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" erleben" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erleben" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263795">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="adventure" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" adventur" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" adventur" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" adventur" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-    </node>
-    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263796">
-      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-      <property name="nCount" nameId="h7db.7993060958537000638" value="6" />
-      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="pisten" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" pist" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" pisten" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" pisten" />
-      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771419646">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="pistes" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" pist" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" pist" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" pistes" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263797">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="slopes" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" slop" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" slope" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" slopes" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263801">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="abfahrt" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" abfahr" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" abfahrt" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" abfahrt" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263802">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="skigebiet" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" skigebie" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" skigebiet" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" skigebiet" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263803">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="schigebiet" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schigebie" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schigebiet" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schigebiet" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
@@ -12293,6 +12399,56 @@
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
+    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263793">
+      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+      <property name="nCount" nameId="h7db.7993060958537000638" value="6" />
+      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+      <property name="name" nameId="tpck.1169194664001" value="erlebnis" />
+      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" erlebni" />
+      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" erlebni" />
+      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erlebnis" />
+      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263812">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="6" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="genuss" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" genuss" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" genuss" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" genuss" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263813">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="16" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="geniessen" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" geniess" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" geniessen" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" geniessen" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263794">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="erleben" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" erleb" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" erleben" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" erleben" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263795">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="adventure" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" adventur" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" adventur" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" adventur" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      </node>
+    </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263905">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="4" />
@@ -12302,15 +12458,135 @@
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" veranstaltungen" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" veranstaltungen" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263906">
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263973">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="music" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" music" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" music" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" music" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263974">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="lied" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lied" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" li" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lied" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263975">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="musik" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" musik" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" musik" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" musik" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263976">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="livemusik" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" livemusik" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" livemusik" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" livemusik" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263977">
+            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+            <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+            <property name="name" nameId="tpck.1169194664001" value="concerts" />
+            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" conc" />
+            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" concert" />
+            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" concerts" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          </node>
+        </node>
+      </node>
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="7747415345307918818">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
         <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="marktfest" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" marktfest" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" marktfest" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" marktfest" />
+        <property name="name" nameId="tpck.1169194664001" value="fest" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" fest" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" fest" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fest" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263910">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="stadt fest" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" stad fest" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" stadt fest" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" stadt fest" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263914">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="see fest" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" see fest" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" see fest" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" see fest" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263915">
+            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+            <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+            <property name="name" nameId="tpck.1169194664001" value="feuerwerk" />
+            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" feurwerk" />
+            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" feuerwerk" />
+            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" feuerwerk" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+            <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263916">
+              <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+              <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+              <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+              <property name="name" nameId="tpck.1169194664001" value="fireworks" />
+              <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" firework" />
+              <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" firework" />
+              <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fireworks" />
+              <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+            </node>
+          </node>
+          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263917">
+            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+            <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+            <property name="name" nameId="tpck.1169194664001" value="lasershow" />
+            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lasershow" />
+            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" lasershow" />
+            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lasershow" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          </node>
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263918">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="sommer fest" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" somm fest" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" sommer fest" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" sommer fest" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263906">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="markt fest" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" mark fest" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" markt fest" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" markt fest" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="2" />
+        </node>
       </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263907">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
@@ -12342,16 +12618,6 @@
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" mittwochsfest" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263910">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="stadtfest" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" stadtfest" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" stadtfest" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" stadtfest" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263911">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -12381,56 +12647,6 @@
           <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" veranstaltungenruh" />
           <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
         </node>
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263914">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="seefest" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" seefest" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" seefest" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" seefest" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263915">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="feuerwerk" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" feurwerk" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" feuerwerk" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" feuerwerk" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263916">
-            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-            <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-            <property name="name" nameId="tpck.1169194664001" value="fireworks" />
-            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" firework" />
-            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" firework" />
-            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" fireworks" />
-            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-          </node>
-        </node>
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263917">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="lasershow" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lasershow" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" lasershow" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lasershow" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263918">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="sommerfest" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" sommerfest" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" sommerfest" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" sommerfest" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263919">
@@ -12672,6 +12888,66 @@
       <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" paradi" />
       <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" paradies" />
       <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264027">
+        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+        <property name="name" nameId="tpck.1169194664001" value="atmosphere" />
+        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" atmosph" />
+        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" atmospher" />
+        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" atmospher" />
+        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264028">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="flair" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" flair" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" flair" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" flair" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264029">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="atmosphare" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" atmosphar" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" atmosphar" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" atmosphar" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264030">
+            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+            <property name="nCount" nameId="h7db.7993060958537000638" value="4" />
+            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+            <property name="name" nameId="tpck.1169194664001" value="klima" />
+            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" klima" />
+            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" klima" />
+            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" klim" />
+            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+            <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264031">
+              <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+              <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+              <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+              <property name="name" nameId="tpck.1169194664001" value="climate" />
+              <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" clima" />
+              <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" climat" />
+              <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" climat" />
+              <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+            </node>
+          </node>
+        </node>
+        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264032">
+          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
+          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
+          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
+          <property name="name" nameId="tpck.1169194664001" value="ambiente" />
+          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ambie" />
+          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ambient" />
+          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ambient" />
+          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
+        </node>
+      </node>
       <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263955">
         <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
         <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
@@ -12823,56 +13099,6 @@
         </node>
       </node>
     </node>
-    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263973">
-      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-      <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
-      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="music" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" music" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" music" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" music" />
-      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263974">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="lied" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" lied" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" li" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" lied" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263975">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="musik" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" musik" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" musik" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" musik" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263976">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="livemusik" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" livemusik" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" livemusik" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" livemusik" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263977">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="concerts" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" conc" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" concert" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" concerts" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-      </node>
-    </node>
     <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771263980">
       <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
       <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
@@ -13010,146 +13236,6 @@
         <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" kindhei" />
         <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" kindheit" />
         <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" kindheit" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-    </node>
-    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264027">
-      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-      <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="atmosphere" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" atmosph" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" atmospher" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" atmospher" />
-      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264028">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="flair" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" flair" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" flair" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" flair" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264029">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="atmosphare" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" atmosphar" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" atmosphar" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" atmosphar" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264030">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="4" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="klima" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" klima" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" klima" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" klim" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-          <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264031">
-            <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-            <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-            <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-            <property name="name" nameId="tpck.1169194664001" value="climate" />
-            <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" clima" />
-            <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" climat" />
-            <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" climat" />
-            <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-          </node>
-        </node>
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264032">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="ambiente" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" ambie" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" ambient" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" ambient" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-    </node>
-    <node role="code" roleId="h7db.4027353721326771100" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264019">
-      <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-      <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-      <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-      <property name="name" nameId="tpck.1169194664001" value="apresski" />
-      <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" apresski" />
-      <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" apresski" />
-      <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" apressk" />
-      <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264020">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="bars" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" bar" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" bar" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" bars" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264021">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="night" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" nigh" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" night" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" night" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264022">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="club" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" club" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" club" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" club" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264023">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="2" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="evening" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" evening" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" even" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" evening" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264024">
-          <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-          <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-          <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-          <property name="name" nameId="tpck.1169194664001" value="abend" />
-          <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" abend" />
-          <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" abend" />
-          <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" abend" />
-          <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-        </node>
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264025">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="3" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="party" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" party" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" parti" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" party" />
-        <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
-      </node>
-      <node role="subCodes" roleId="h7db.972972900937310118" type="h7db.Code" typeId="h7db.4027353721326771088" id="1308925823771264026">
-        <property name="sumNCount" nameId="h7db.972972900937471670" value="0" />
-        <property name="nCount" nameId="h7db.7993060958537000638" value="1" />
-        <property name="importance" nameId="h7db.3085085761335754278" value="50" />
-        <property name="name" nameId="tpck.1169194664001" value="schirmbar" />
-        <property name="stemmedDE" nameId="h7db.2996950343506299062" value=" schirmbar" />
-        <property name="stemmedEN" nameId="h7db.2996950343506299061" value=" schirmbar" />
-        <property name="stemmedIT" nameId="h7db.2996950343506299063" value=" schirmbar" />
         <property name="numOfWords" nameId="h7db.2996950343506360394" value="1" />
       </node>
     </node>

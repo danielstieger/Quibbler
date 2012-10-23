@@ -3,7 +3,7 @@
   <persistence version="7" />
   <language namespace="f883a17e-79f2-48bb-ade5-f22f97685d97(Quibbler)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="17" implicit="yes" />
+  <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="18" implicit="yes" />
   <roots>
     <node type="h7db.Project" typeId="h7db.4195781831414131181" id="248191114472728572">
       <property name="name" nameId="tpck.1169194664001" value="SFL_Winter2011" />

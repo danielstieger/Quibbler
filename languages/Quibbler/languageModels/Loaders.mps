@@ -6,7 +6,7 @@
   <language namespace="3ecd7c84-cde3-45de-886c-135ecc69b742(jetbrains.mps.lang.refactoring)" />
   <language namespace="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="17" />
+  <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="18" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="c6dm" modelUID="f:java_stub#954c4d77-e24b-4e49-a5a5-5476c966c092#com.ibm.icu.text(jetbrains.mps.gwt.client/com.ibm.icu.text@java_stub)" version="-1" />
   <import index="q1wa" modelUID="r:bb5f6f89-ef5b-453a-8c27-2c99b5e8d230(Quibbler.refactorings)" version="-1" />

@@ -17,27 +17,22 @@
     <node type="h7db.Column" typeId="h7db.4027353721326700641" id="248191114472927613">
       <property name="name" nameId="tpck.1169194664001" value="association1" />
       <property name="centrality" nameId="h7db.4027353721326700642" value="1" />
-      <link role="project" targetNodeId="248191114472728572" resolveInfo="SFL_Winter2011" />
     </node>
     <node type="h7db.Column" typeId="h7db.4027353721326700641" id="248191114472927932">
       <property name="name" nameId="tpck.1169194664001" value="association2" />
       <property name="centrality" nameId="h7db.4027353721326700642" value="2" />
-      <link role="project" targetNodeId="248191114472728572" resolveInfo="SFL_Winter2011" />
     </node>
     <node type="h7db.Column" typeId="h7db.4027353721326700641" id="248191114472928251">
       <property name="name" nameId="tpck.1169194664001" value="association3" />
       <property name="centrality" nameId="h7db.4027353721326700642" value="3" />
-      <link role="project" targetNodeId="248191114472728572" resolveInfo="SFL_Winter2011" />
     </node>
     <node type="h7db.Column" typeId="h7db.4027353721326700641" id="248191114472928570">
       <property name="name" nameId="tpck.1169194664001" value="association4" />
       <property name="centrality" nameId="h7db.4027353721326700642" value="4" />
-      <link role="project" targetNodeId="248191114472728572" resolveInfo="SFL_Winter2011" />
     </node>
     <node type="h7db.Column" typeId="h7db.4027353721326700641" id="248191114472928889">
       <property name="name" nameId="tpck.1169194664001" value="association5" />
       <property name="centrality" nameId="h7db.4027353721326700642" value="5" />
-      <link role="project" targetNodeId="248191114472728572" resolveInfo="SFL_Winter2011" />
     </node>
     <node type="h7db.Codebook" typeId="h7db.4027353721326771098" id="3085085761335606669">
       <property name="name" nameId="tpck.1169194664001" value="StopWords" />

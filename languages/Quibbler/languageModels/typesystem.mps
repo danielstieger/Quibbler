@@ -114,7 +114,7 @@
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="4451817313878110555">
           <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="4451817313878110654">
             <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4451817313878110657">
-              <property name="value" nameId="tpee.1070475926801" value="code not initialized" />
+              <property name="value" nameId="tpee.1070475926801" value="code not initialized (click on current codebook-&gt;Refactoring-&gt;ReInitialize Codebook)" />
             </node>
             <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4451817313878110658">
               <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4451817313878110552" resolveInfo="code" />

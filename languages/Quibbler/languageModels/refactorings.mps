@@ -6,6 +6,7 @@
   <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
   <language namespace="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
   <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
+  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="h7db" modelUID="r:70f8d004-4fe2-441b-9044-5b288ea2bdb8(Quibbler.structure)" version="18" />
   <import index="c2vw" modelUID="r:47cca1cb-c4b0-4cbb-b9bc-bddda52c8931(Quibbler.Loaders)" version="-1" />
@@ -15,6 +16,8 @@
   <import index="i82i" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.openapi.progress(MPS.Classpath/com.intellij.openapi.progress@java_stub)" version="-1" />
   <import index="27v0" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.openapi.project(MPS.Classpath/com.intellij.openapi.project@java_stub)" version="-1" />
   <import index="zn1y" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.openapi.vfs(MPS.Classpath/com.intellij.openapi.vfs@java_stub)" version="-1" />
+  <import index="irbq" modelUID="r:1bb4815f-e81d-4db6-b025-ca1c0aae7223(Quibbler.plugin)" version="-1" />
+  <import index="xpbq" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.ide.dialogs(MPS.Classpath/jetbrains.mps.ide.dialogs@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp1h" modelUID="r:00000000-0000-4000-0000-011c89590319(jetbrains.mps.lang.refactoring.structure)" version="1" implicit="yes" />
@@ -26,6 +29,7 @@
   <import index="c2k9" modelUID="r:f7379ac3-f38f-482f-9af1-00fa5696c2ef(Quibbler.Transformers)" version="-1" implicit="yes" />
   <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" implicit="yes" />
   <import index="lpfi" modelUID="r:b5d51d4e-0dd5-40aa-8fc7-73af628688b5(Quibbler.Stemming)" version="-1" implicit="yes" />
+  <import index="lkfb" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="3317708783574899603">
       <property name="name" nameId="tpck.1169194664001" value="S0_LoadData" />
@@ -116,16 +120,20 @@
       <property name="name" nameId="tpck.1169194664001" value="S6_WordlistSortIN" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="954315733917670813">
-      <property name="name" nameId="tpck.1169194664001" value="S9_NcountRecalc" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(9) Recalc n-count for codebook" />
+      <property name="name" nameId="tpck.1169194664001" value="S10_NcountRecalc" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(10) Recalc n-count for codebook" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="5335254116126267822">
-      <property name="name" nameId="tpck.1169194664001" value="S10_Export" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(10) Export Coded Project" />
+      <property name="name" nameId="tpck.1169194664001" value="S11_Export" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(11) Export Coded Project" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="4166238386297479799">
       <property name="name" nameId="tpck.1169194664001" value="ChangeVersion_1_2_2" />
       <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Change from Quibbler_1 to Quibbler_2" />
+    </node>
+    <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="8562709549414164109">
+      <property name="name" nameId="tpck.1169194664001" value="S9_PreviewBrandImage" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(9) Preview Brand Image " />
     </node>
   </roots>
   <root id="3317708783574899603">
@@ -7189,6 +7197,98 @@
                   <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="4166238386297479861" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="8562709549414164109">
+    <node role="field" roleId="tp1h.6895093993902236377" type="tp1h.RefactoringField" typeId="tp1h.6895093993902311010" id="8562709549414190185">
+      <property name="name" nameId="tpck.1169194664001" value="projectData" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8562709549414190187">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="irbq.4079781065723379816" resolveInfo="ProjectData" />
+      </node>
+    </node>
+    <node role="target" roleId="tp1h.6895093993902310998" type="tp1h.NodeTarget" typeId="tp1h.6895093993902310764" id="8562709549414164116">
+      <link role="concept" roleId="tp1h.6895093993902310806" targetNodeId="h7db.4195781831414131181" resolveInfo="Project" />
+    </node>
+    <node role="doRefactorBlock" roleId="tp1h.6895093993902236381" type="tp1h.DoRefactorClause" typeId="tp1h.1189694053795" id="8562709549414164111">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8562709549414164112">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="8562709549414164134">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8562709549414164135">
+            <property name="name" nameId="tpck.1169194664001" value="prj" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8562709549414164136">
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="h7db.4195781831414131181" resolveInfo="Project" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8562709549414164141">
+              <node role="operand" roleId="tpee.1197027771414" type="tp1h.RefactoringContext_ConceptFunctionParameter" typeId="tp1h.7953996722066256458" id="8562709549414164138" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp1h.NodeOperation" typeId="tp1h.7953996722066252915" id="8562709549414164147" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4079781065723560176">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="4079781065723560177">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4079781065723409245">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4079781065723409246">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="irbq.4079781065723379818" resolveInfo="ProjectData" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8562709549414164158">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8562709549414164135" resolveInfo="prj" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tp1h.RefactoringFieldReference" typeId="tp1h.5497648299878398634" id="8562709549414190188">
+              <link role="baseVariableDeclaration" roleId="tpee.5497648299878491909" targetNodeId="8562709549414190185" resolveInfo="projectData" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4079781065723409250">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4079781065723409254">
+            <node role="operand" roleId="tpee.1197027771414" type="tp1h.RefactoringFieldReference" typeId="tp1h.5497648299878398634" id="8562709549414190189">
+              <link role="baseVariableDeclaration" roleId="tpee.5497648299878491909" targetNodeId="8562709549414190185" resolveInfo="projectData" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4079781065723409260">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="irbq.4079781065723409159" resolveInfo="run" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8562709549414164148" />
+      </node>
+    </node>
+    <node role="doWhenDoneBlock" roleId="tp1h.2058726427123891193" type="tp1h.DoWhenDoneClause" typeId="tp1h.2058726427123891188" id="8562709549414190181">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8562709549414190182">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4079781065723321410">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4079781065723321411">
+            <property name="name" nameId="tpck.1169194664001" value="window" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4079781065723321412">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="irbq.4533699301447536554" resolveInfo="VisualizeWindow" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4079781065723321414">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4079781065723321415">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="irbq.4533699301447536565" resolveInfo="VisualizeWindow" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8562709549414164125">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4079781065723321416">
+                    <node role="operand" roleId="tpee.1197027771414" type="tp1h.RefactoringContext_ConceptFunctionParameter" typeId="tp1h.7953996722066256458" id="8562709549414164119" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp1h.OperationContextOperation" typeId="tp1h.7953996722066252919" id="8562709549414164121" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8562709549414164131">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lkfb.~IOperationContext%dgetMainFrame()%cjava%dawt%dFrame" resolveInfo="getMainFrame" />
+                  </node>
+                </node>
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tp1h.RefactoringFieldReference" typeId="tp1h.5497648299878398634" id="8562709549414190190">
+                  <link role="baseVariableDeclaration" roleId="tpee.5497648299878491909" targetNodeId="8562709549414190185" resolveInfo="projectData" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4079781065723321420">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4079781065723321424">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4079781065723321421">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4079781065723321411" resolveInfo="window" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4079781065723324331">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="xpbq.~BaseDialog%dshowDialog()%cvoid" resolveInfo="showDialog" />
             </node>
           </node>
         </node>

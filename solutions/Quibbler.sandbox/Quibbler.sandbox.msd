@@ -8,6 +8,7 @@
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">f486eb05-dd5a-401f-8fe1-21b9ae487bd8(Quibbler.sandbox)</dependency>
+    <dependency reexport="false">f883a17e-79f2-48bb-ade5-f22f97685d97(Quibbler)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f883a17e-79f2-48bb-ade5-f22f97685d97(Quibbler)</usedLanguage>

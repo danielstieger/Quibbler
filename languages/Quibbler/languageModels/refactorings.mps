@@ -132,8 +132,8 @@
       <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="Change from Quibbler_1 to Quibbler_2" />
     </node>
     <node type="tp1h.Refactoring" typeId="tp1h.6895093993902236229" id="8562709549414164109">
-      <property name="name" nameId="tpck.1169194664001" value="S9_PreviewBrandImage" />
-      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(9) Preview Brand Image " />
+      <property name="name" nameId="tpck.1169194664001" value="S9_PreviewVergesMatrix" />
+      <property name="userFriendlyName" nameId="tp1h.6895093993902236371" value="(9) Preview Verges-Matrix" />
     </node>
   </roots>
   <root id="3317708783574899603">

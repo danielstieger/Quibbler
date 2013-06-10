@@ -33,7 +33,7 @@
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="h7db.4027353721326771088" resolveInfo="Code" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="3891213745654777442">
-      <property name="name" nameId="tpck.1169194664001" value="AddToAdjectiveSimilarities" />
+      <property name="name" nameId="tpck.1169194664001" value="AddToCoreConceptsBok" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="h7db.4027353721326771088" resolveInfo="Code" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="3706970539641493464">
@@ -337,7 +337,7 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3891213745654777444">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3891213745654777466">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3891213745654777467">
-            <property name="value" nameId="tpee.1070475926801" value="Add Code to ADJECTIVE Similarities" />
+            <property name="value" nameId="tpee.1070475926801" value="Add Code to CoreConcepts" />
           </node>
         </node>
       </node>
@@ -369,8 +369,8 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1py3.8953696360125703699" resolveInfo="getProject" />
                   </node>
                 </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3891213745654777469">
-                  <link role="link" roleId="tp25.1138056516764" targetNodeId="h7db.7971240069553208422" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="240466312514023766">
+                  <link role="link" roleId="tp25.1138056516764" targetNodeId="h7db.874424667336370418" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="3891213745654777463">
@@ -442,15 +442,20 @@
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6574361826794434180">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6574361826794434181">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6574361826794440387">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6574361826794440391">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6574361826794440397">
-              <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="6574361826794440394" />
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6574361826794441266">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="h7db.4027353721326700624" resolveInfo="text" />
-              </node>
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="240466312514028439">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="240466312514028442">
+              <property name="value" nameId="tpee.1070475926801" value="'" />
             </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6574361826794440388">
-              <property name="value" nameId="tpee.1070475926801" value="Extract everything to " />
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6574361826794440391">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6574361826794440388">
+                <property name="value" nameId="tpee.1070475926801" value="Extract everything to '" />
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6574361826794440397">
+                <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="6574361826794440394" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6574361826794441266">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="h7db.4027353721326700624" resolveInfo="text" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

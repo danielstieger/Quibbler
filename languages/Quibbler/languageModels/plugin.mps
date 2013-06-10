@@ -1379,7 +1379,7 @@
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8562709549414190256">
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8562709549414190259">
-                <property name="value" nameId="tpee.1070475926801" value="Vergex Matrix for " />
+                <property name="value" nameId="tpee.1070475926801" value="Verges Matrix for " />
               </node>
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8562709549414190247">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8562709549414190244">
